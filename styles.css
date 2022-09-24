@@ -1,0 +1,72 @@
+body {
+  background-color: rgb(37, 150, 190);
+}
+header {
+  position: relative;
+  height: 91px;
+}
+h1 {
+  position: absolute;
+  left: 200px;
+  top: -14px;
+  font-family: "Courgette", cursive;
+  color: azure;
+  font-size: 25px;
+  display: inline;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  padding-left: 0;
+}
+li {
+  margin-right: 20px;
+}
+nav {
+  position: absolute;
+  right: 100px;
+  width: 400px;
+  height: 50px;
+}
+a {
+  text-decoration: none;
+  color: azure;
+  font-family: "Roboto", sans-serif;
+}
+
+div {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 900px;
+  height: 250px;
+  left: 200px;
+  top: 100px;
+}
+h2 {
+  position: absolute;
+  font-family: "Roboto", sans-serif;
+  font-size: 35px;
+  color: azure;
+  
+}
+p {
+  position: absolute;
+  top: 70px;
+  font-family: "Reem Kufi Fun", sans-serif;
+  text-align: justify;
+  color: azure;
+}
+button {
+  position: absolute;
+  bottom: 6px;
+  padding: 7px 12px;
+  color: azure;
+  background-color: #7dce13;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  border: none; 
+  border-radius: 4px;
+}
